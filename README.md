@@ -20,6 +20,7 @@
   * HTTP Live Streaming (HLS)
   * Dynamic Adaptive Streaming over HTTP (DASH)
 * You can configure NGINX (eNGINe-X) to stream video using all of the protocols
+  * <img width="500px" src="https://user-images.githubusercontent.com/8818025/210061627-76556fff-053a-4c18-b982-b3b893a2be79.png"/>
   * PCRE – Supports regular expressions. Required by the NGINX Core and Rewrite modules.
   * zlib – Supports header compression. Required by the NGINX Gzip module.
   * OpenSSL – Supports the HTTPS protocol. Required by the NGINX SSL module and others.
