@@ -43,18 +43,8 @@ RUN  mkdir -p nginx-build                                                       
      sudo make install                                                                                                                                    && \
      mkdir -p /tmp/dash /tmp/hls
 
-RUN sudo apt install -y curl                                          && \
-    curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -   && \
-    sudo apt install -y nodejs
-
-COPY package.json /tmp
-RUN cd /tmp && npm install
-COPY index.js /tmp
-
 COPY nginx.conf /usr/local/nginx/conf/
 COPY stream.sh /home/$USERNAME
 
 EXPOSE 80
 EXPOSE 1935
-EXPOSE 3000
-# CMD ["/usr/local/nginx/sbin/nginx", "-g","daemon off;"]
