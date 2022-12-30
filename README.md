@@ -24,8 +24,9 @@
   * zlib – Supports header compression. Required by the NGINX Gzip module.
   * OpenSSL – Supports the HTTPS protocol. Required by the NGINX SSL module and others.
 
-* https://learn.microsoft.com/en-us/azure/media-services/previous/media-services-media-encoder-standard-formats
-  * Codecs are the software that implements the compression/decompression algorithms whereas file formats are containers that hold the compressed video.
+* Codecs are the software that implements the compression/decompression algorithms whereas file formats are containers that hold the compressed video.
+  * https://docs.aws.amazon.com/mediapackage/latest/ug/supported-inputs-live.html
+  * https://learn.microsoft.com/en-us/azure/media-services/previous/media-services-media-encoder-standard-formats
 * https://learn.microsoft.com/en-us/azure/media-services/previous/media-services-dynamic-packaging-overview
   * The following diagram shows the traditional encoding and static packaging workflow.
     ![image](https://user-images.githubusercontent.com/8818025/210056657-1cd5847b-0d72-4765-9a35-2c66515fe801.png)
