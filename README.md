@@ -281,3 +281,4 @@ root@b91e571417bb:/# tree /tmp
     OBS:- http://localhost:8088/live/bbb
     VLC:- http://localhost:8088/live/bbb
     ```
+* https://flashphoner.com/how-to-broadcast-webrtc-rtsp-and-rtmp-streams-to-media-source-extensions-via-the-websocket-protocol/
