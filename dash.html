@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DASH</title>
+	        <style>
+            video {
+                width: 640px;
+                height: 480px;
+            }
+        </style>
+</head>
+<body>
+
+<div align="center">
+	<video id="videoPlayer" controls></video>
+ </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/3.1.2/dash.all.debug.js"></script>
+        <script>
+            (function(){
+                var url = "http://localhost:8085/dash/bbb/index.mpd";
+                var player = dashjs.MediaPlayer().create();
+                player.initialize(document.querySelector("#videoPlayer"), url, true);
+                player.updateSettings({
+            'debug': {
+                'logLevel': dashjs.Debug.LOG_LEVEL_DEBUG  /* turns off console logging */
+            }
+        });
+            })();
+        </script>
+
+</body>
+</html>
