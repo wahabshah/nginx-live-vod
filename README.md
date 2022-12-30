@@ -1,5 +1,19 @@
 # Main
 
+* Different Types of Streaming:-
+  * RTMP live
+  * RTMP VOD
+  * HTTP live including 
+    * HLS live
+    * DASH live
+  * HTTP VOD including 
+    * HLS VOD
+    * DASH VOD
+* Each client can only play a certain type of video:-
+  * All browsers today that is capable of media source extensions can play MPEG-DASH
+    * MP4 is simple because it is a file that can be delivered through HTTP
+  * Apple devices like iPhone and iPad can play HLS
+  * Old browsers that have the Adobe Flash plugin can play RTMP
 * Stream video in multiple formats, including :-
   * Real-Time Messaging Protocol (RTMP)
   * HTTP Live Streaming (HLS)
@@ -9,11 +23,19 @@
   * zlib – Supports header compression. Required by the NGINX Gzip module.
   * OpenSSL – Supports the HTTPS protocol. Required by the NGINX SSL module and others.
 
+* https://learn.microsoft.com/en-us/azure/media-services/previous/media-services-media-encoder-standard-formats
+  * Codecs are the software that implements the compression/decompression algorithms whereas file formats are containers that hold the compressed video.
+* https://learn.microsoft.com/en-us/azure/media-services/previous/media-services-dynamic-packaging-overview
+  * The following diagram shows the traditional encoding and static packaging workflow.
+    
+
+
+
 
 ## Adaptive bitrate streaming
 
 * It is a technique used in streaming multimedia over computer networks. 
-* While in the past most video or audio streaming technologies utilized streaming protocols such as RTP with RTSP. 
+* While in the past most video or audio streaming technologies utilized streaming protocols such as RTP with RTSP.
 * Today's adaptive streaming technologies are almost exclusively based on HTTP and designed to work efficiently over large distributed HTTP networks such as the Internet. 
 * It works
   * by detecting a user's bandwidth and CPU capacity in real time, adjusting the quality of the media stream accordingly.
@@ -22,7 +44,7 @@
   *  "The result: very little buffering, fast start time and a good experience for both high-end and low-end connections
 
 * Implementations
-  1. Dynamic Adaptive Streaming over HTTP (DASH) or Moving Picture Experts Group - Dynamic Adaptive Streaming over HTTP (MPEG-DASH)
+  1. Dynamic Adaptive Streaming over HTTP (DASH)
     * MPEG-4 AVC OR Advanced Video Coding (AVC) OR  H.264 OR MPEG-4 Part 10, is a video compression standard based on block-oriented, motion-compensated coding
   2. Apple HTTP Live Streaming (HLS)
   3. Adobe HTTP Dynamic Streaming (HDS)
@@ -30,6 +52,7 @@
   5. Common Media Application Format (CMAF)
   6. QuavStreams Adaptive Streaming over HTTP
   7. Uplynk
+  8. Moving Picture Experts Group - Dynamic Adaptive Streaming over HTTP (MPEG-DASH)
 
 
 ### Step1: Build RTMP Server
@@ -195,6 +218,7 @@ root@b91e571417bb:/# tree /tmp
 
 * https://www.nginx.com/blog/video-streaming-for-remote-learning-with-nginx => Tutorial inspired for this repo
   * https://gist.github.com/outcast/13289bd872b06700089d9fe1a94441ce => nginx.conf used in above tutorial
+* https://www.nginx-cn.net/blog/streaming-hls-dash-nginx/#Agenda => Very good introduction to all concepts
 * https://docs.peer5.com/guides/setting-up-hls-live-streaming-server-using-nginx/
 * https://mpolinowski.github.io/docs/DevOps/NGINX/2019-11-07--nginx-rtmp-streaming-container/2019-11-07/ => Good tutorial of HLS
 * https://unix.stackexchange.com/questions/628717/why-cant-open-the-stream-with-hls-url => ffplay to stream rtsp
