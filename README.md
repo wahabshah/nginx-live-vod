@@ -1,5 +1,6 @@
 # Main
 
+* ![image](https://user-images.githubusercontent.com/8818025/210072324-5bf73b2f-9dd0-40c8-8cd0-0b09ab3a158e.png)
 * Different Types of Streaming:-
   * RTMP live
   * RTMP VOD
@@ -60,6 +61,17 @@
   8. Moving Picture Experts Group - Dynamic Adaptive Streaming over HTTP (MPEG-DASH)
 
 
+### fragmented MP4 (Smooth Streaming ingest)
+* To output multi-bitrate Smooth Streaming (fragmented MP4) as output. The supported URL schemes are http:// or https://.
+  * Ateme TITAN Live
+  * Antix Digital StreamZ Live (previously Imagine Communication SelenioFlex Live)
+  * Cisco Digital Media Encoder 2200
+  * Elemental Live (version 2.14.15 and higher due to the TLS 1.2 requirement)
+  * Envivio 4Caster C4 Gen III
+  * Ffmpeg
+  * Media Excel Hero Live and Hero 4K (UHD/HEVC)
+
+
 ### Step1: Build RTMP Server
 
 * Build Image and Run Container:-
@@ -84,9 +96,26 @@
       ```
     * Using Hardware e.g WebCam
     * Using another stream
-  * OBS
+  * OBS Studio
       * Using Hardware e.g WebCam
         * TODO:
+  * Adobe Flash Media Live Encoder 3.2
+  * Antix Digital StreamZ Live (previously Imagine Communication SelenioFlex Live)
+  * Blackmagic ATEM Mini and ATEM Mini PRO
+  * Cambria Live 4.3
+  * Elemental Live (version 2.14.15 and higher)
+  * GoPro Hero 7 and Hero 8
+  * Haivision KB
+  * Haivision Makito X HEVC
+  * Osprey Talon hardware encoders, Talon 4K-SC, Talon UHD-SC
+  * Restream.io
+  * Streamlabs
+  * Switcher Studio (iOS)
+  * Telestream Wirecast (version 13.0.2 or higher due to the TLS 1.2 requirement)
+  * Telestream Wirecast S (only RTMP is supported. No RTMPS support due to lack of TLS 1.2+)
+  * Teradek Slice 756
+  * VMIX
+  * xStream
 * The following streams will be eventually available:-
   * RTMP – rtmp://localhost:8086/live/bbb
   * HLS – http://localhost:8085/hls/bbb/index.m3u8
