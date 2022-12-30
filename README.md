@@ -13,6 +13,7 @@
   * All browsers today that is capable of media source extensions can play MPEG-DASH
     * MP4 is simple because it is a file that can be delivered through HTTP
   * Apple devices like iPhone and iPad can play HLS
+  * Silverlight and Xbox require Smooth Streaming
   * Old browsers that have the Adobe Flash plugin can play RTMP
 * Stream video in multiple formats, including :-
   * Real-Time Messaging Protocol (RTMP)
@@ -33,7 +34,6 @@
   * https://learn.microsoft.com/en-us/azure/media-services/previous/media-services-deliver-streaming-content
     * Dynamic:- Gives links to HLS, MPEG-DASH and SS and HTML player will automatically select the segement which will be stripped from the MP4 [on the fly](https://www.nginx-cn.net/blog/streaming-hls-dash-nginx/#Agenda)
     * Progressive :- Gives links to all multi-bitrate MP4 and HTML video element will download single file progressively
-
 
 ## Adaptive bitrate streaming
 
