@@ -35,7 +35,7 @@
   * The following diagram shows the `dynamic packaging` workflow
     ![image](https://user-images.githubusercontent.com/8818025/210056697-6539cefc-d8aa-4cfe-a725-b7ca42f10d04.png)
   * https://learn.microsoft.com/en-us/azure/media-services/previous/media-services-deliver-streaming-content
-    * Dynamic:- Gives links to HLS, MPEG-DASH and SS and HTML player will automatically select the segement which will be stripped from the MP4 [on the fly](https://www.nginx-cn.net/blog/streaming-hls-dash-nginx/#Agenda)
+    * Dynamic:- Gives links to HLS, MPEG-DASH and MSS and HTML player will automatically select the segement which will be stripped from the MP4 [on the fly](https://www.nginx-cn.net/blog/streaming-hls-dash-nginx/#Agenda)
     * Progressive :- Gives links to all multi-bitrate MP4 and HTML video element will download single file progressively
 
 ## Adaptive bitrate streaming
