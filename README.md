@@ -41,6 +41,7 @@
 
 ## Adaptive bitrate streaming
 
+* https://www.youtube.com/watch?v=z1m9NadpGAg
 * It is a technique used in streaming multimedia over computer networks. 
 * While in the past most video or audio streaming technologies utilized streaming protocols such as RTP with RTSP.
 * Today's adaptive streaming technologies are almost exclusively based on HTTP and designed to work efficiently over large distributed HTTP networks such as the Internet. 
