@@ -263,6 +263,10 @@ root@b91e571417bb:/# tree /tmp
 * ![image](https://user-images.githubusercontent.com/8818025/210624478-d98ace5d-073d-4c18-aae2-765291a31ddb.png)
 * https://www.youtube.com/watch?v=htN-gIPOkP0
 
+## Scaling Facebook Live Videos to a Billion Users
+* https://www.youtube.com/watch?v=IO4teCbHvZw
+* RTMPS => Encoders (multi bitrate and multi resolution) => HTTP (MPEG-DASH)
+* ![image](https://user-images.githubusercontent.com/8818025/210642727-75d29c09-fa80-4bc0-9a8d-68a3ea103560.png)
 
 
 ## Links
