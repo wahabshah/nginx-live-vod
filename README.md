@@ -41,7 +41,7 @@
     * Progressive :- Gives links to all multi-bitrate MP4 and HTML video element will download single file progressively
 
 ## Adaptive bitrate streaming
-
+* https://resources.antmedia.io/docs/adaptive-bitrate-streaming
 * https://www.youtube.com/watch?v=z1m9NadpGAg
 * It is a technique used in streaming multimedia over computer networks. 
 * While in the past most video or audio streaming technologies utilized streaming protocols such as RTP with RTSP.
