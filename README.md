@@ -42,6 +42,8 @@
 
 ## Adaptive bitrate streaming
 * https://resources.antmedia.io/docs/adaptive-bitrate-streaming
+  * Lowering the resolutions of videos for recorded streams is not a big deal.
+  * However, doing the same job for live streams on the fly is not as easy as recorded streams 
 * https://www.youtube.com/watch?v=z1m9NadpGAg
 * It is a technique used in streaming multimedia over computer networks. 
 * While in the past most video or audio streaming technologies utilized streaming protocols such as RTP with RTSP.
