@@ -272,6 +272,10 @@ root@b91e571417bb:/# tree /tmp
 * RTMPS => Encoders (multi bitrate and multi resolution) => HTTP (MPEG-DASH)
 * ![image](https://user-images.githubusercontent.com/8818025/210642727-75d29c09-fa80-4bc0-9a8d-68a3ea103560.png)
 
+## TikTok
+
+* Video Engineer
+  * ![image](https://user-images.githubusercontent.com/8818025/212569603-3d1bf9ae-4d92-412e-8d27-d7058fa44bd8.png)
 
 ## Links
 
