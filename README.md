@@ -313,3 +313,4 @@ root@b91e571417bb:/# tree /tmp
     VLC:- http://localhost:8088/live/bbb
     ```
 * https://flashphoner.com/how-to-broadcast-webrtc-rtsp-and-rtmp-streams-to-media-source-extensions-via-the-websocket-protocol/
+* https://github.com/Miczeq22/simple-chat-app
