@@ -47,6 +47,7 @@
 * https://www.youtube.com/watch?v=z1m9NadpGAg
 * It is a technique used in streaming multimedia over computer networks. 
 * While in the past most video or audio streaming technologies utilized streaming protocols such as RTP with RTSP.
+  * ![image](https://user-images.githubusercontent.com/8818025/212569990-e7184118-c6a2-4ffa-a177-14b8ac19dfb8.png) 
 * Today's adaptive streaming technologies are almost exclusively based on HTTP and designed to work efficiently over large distributed HTTP networks such as the Internet. 
 * It works
   * by detecting a user's bandwidth and CPU capacity in real time, adjusting the quality of the media stream accordingly.
